@@ -1,0 +1,256 @@
+
+body {
+    color: #757575;
+    background: #ffffff;
+    direction: rtl;
+}
+
+.btn-link:hover {
+    text-decoration: unset;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #454545;
+}
+
+a {
+    font-weight: 600;
+    color: #fbaf32;
+    transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #7d9715;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn.custom-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #fbaf32;
+    border: 2px solid #fbaf32;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn.custom-btn:hover {
+    color: #fbaf32;
+    background: transparent;
+}
+
+.btn.custom-btn:focus,
+.form-control:focus,
+.custom-select:focus {
+    box-shadow: none;
+}
+
+.container-fluid {
+    max-width: 1366px;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #fbaf32;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 22px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 5px;
+    transition: background 0.5s;
+    z-index: 9;
+}
+
+.back-to-top i {
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.back-to-top:hover {
+    background: #639a0a;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-size: inherit;
+    margin-left: 0;
+}
+
+.modal-dialog {
+    max-width: 100%;
+}
+
+.modal-content {
+    width: 60%;
+    margin: auto;
+}
+
+.return-btn a {
+    background: #ab614b;
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+}
+
+.calc-btn a.btn {
+    background: #7d9715;
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+}
+
+.form-safheAraee>.form-check {
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.box-btn>div {
+    display: inline-block;
+}
+
+.form-safhearaee {
+    position: relative;
+}
+
+.more-info-items {
+    position: absolute;
+    top: 0;
+    right: -25px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #7d9715;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.safh-border {
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 25%);
+}
+
+.w-80 {
+    width: 80%;
+}
+
+#carouselExampleIndicators {
+    width: 100%;
+}
+
+.modal-safhearaee {
+    opacity: 0;
+    margin-top: 40px !important;
+    width: 100%;
+    margin: auto;
+    transition: all 1s;
+    position: relative;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0 0 5px rgb(0 0 0 / 25%);
+    bottom: 0;
+}
+
+#more-info .modal-content {
+    margin-top: 100px;
+    padding: 20px 15px;
+}
+
+.modal-safhearaee.active {
+    opacity: 1;
+}
+
+.price-vr {
+    border-right: 1px solid #ccc;
+    padding: 10px 0;
+    color: #232933;
+    width: 50%;
+}
+
+.active .content {
+    color: #232933;
+}
+
+.modal-safhearaee>.content {
+    width: 50%;
+}
+
+.col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+}
+.mt-5, .my-5 {
+    margin-top: 3rem !important
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+.safh-border {
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 25%);
+}
+.col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%
+}
+.col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem !important
+}
+.modal-safhearaee {
+    opacity: 0;
+    margin-top: 40px !important;
+    width: 100%;
+    margin: auto;
+    transition: all 1s;
+    position: relative;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0 0 5px rgb(0 0 0 / 25%);
+    bottom: 0;
+}
+.d-none {
+    display: none !important
+}
+.box-btn>div {
+    display: inline-block;
+}
+.text-center {
+    text-align: center !important
+}
